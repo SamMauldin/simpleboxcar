@@ -1,7 +1,7 @@
 {
 	"name": "simpleboxcar",
 	"perferGlobal": false,
-	"version": "0.1.0",
+	"version": "1.0.0",
 	"author": "Sam Mauldin<sam@fluidnode.com",
 	"description": "a simple boxcar pusher",
 	"main": "./lib/boxcar.js",
@@ -16,7 +16,8 @@
 		"notification"
 	],
 	"dependencies": {
-		"request": "*"
+		"request": "*",
+		"node-uuid": "*"
 	},
 	"license": "MIT",
 	"engines": {
