@@ -10,6 +10,7 @@ Creating an instance
 	var boxcar = new simpleboxcar("apikey", "apisecret");
 
 Subscribing users
+	
 	boxcar.subscribe("email", function(err, res) {
 		if (err) {
 			console.log("Error: " + err);
@@ -19,6 +20,7 @@ Subscribing users
 	});
 
 Sending notifications
+	
 	var opts = {
 		message: "Test message",
 		email: "example@example.com", // or emails: ["emails"]
@@ -35,6 +37,7 @@ Sending notifications
 	});
 
 Broadcasting notifications
+	
 	var opts = {
 		message: "Test message",
 		from: "MyAwesomeApp",
