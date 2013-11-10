@@ -6,6 +6,7 @@ A simple boxcar api for node.js
 Usage:
 
 Creating an instance
+	
 	var simpleboxcar = require("simpleboxcar");
 	var boxcar = new simpleboxcar("apikey", "apisecret");
 
