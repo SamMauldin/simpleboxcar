@@ -52,3 +52,6 @@ Broadcasting notifications
 		}
 		console.log("Broadcasted!");
 	});
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Sxw1212/simpleboxcar/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
