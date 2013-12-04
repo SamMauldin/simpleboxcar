@@ -5,6 +5,7 @@
 	"author": "Sam Mauldin<sam@fluidnode.com",
 	"description": "a simple boxcar pusher",
 	"main": "./lib/boxcar.js",
+	"bin": "./lib/cli.js",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/Sxw1212/simpleboxcar"
@@ -17,7 +18,8 @@
 	],
 	"dependencies": {
 		"request": "*",
-		"node-uuid": "*"
+		"node-uuid": "*",
+		"optimist": "*"
 	},
 	"license": "MIT",
 	"engines": {
